@@ -7,11 +7,12 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
-        android:supportsRtl="true"
+        android:supportsRtl="false"
         android:theme="@style/Theme.S3">
-        <activity android:name=".MainACT2"></activity>
-        <activity android:name=".Home" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".ShehanActivity1"></activity>
+        <activity android:name=".MainACT2" />
+        <activity android:name=".MainActivity" />
+        <activity android:name="Home">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
